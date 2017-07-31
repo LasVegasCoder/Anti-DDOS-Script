@@ -146,5 +146,5 @@ iptables -A INPUT -p udp --sport 67:68 --dport 67:68 -j  RouterDATA
 
 #DROP ALL CONNECTION THAT DOESNT MATCH OUR RULES
 iptables -A INPUT -j DROP
-#wget -qO - http://infiltrated.net/blacklisted|awk '!/#|[a-z]/&&/./{print "iptables -A INPUT -s "$1" -j DROP"}'
+wget -qO - http://infiltrated.net/blacklisted|awk '!/#|[a-z]/&&/./{print "iptables -A INPUT -s "$1" -j DROP"}'
 
