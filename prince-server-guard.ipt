@@ -1,3 +1,4 @@
+iptables-save > current-firewall-backup-of-`date +%F`.log
 iptables -F       
 iptables -F INPUT 
 iptables -F OUTPUT
