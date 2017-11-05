@@ -5,7 +5,8 @@ Firewall and Network Monitoring script handy for both beginners and advanced Net
 	
 Let me demonstrate a basic protection usage:
 	
-	Only port 80, 443 are allowed by default to your server, this allows web traffic to reach your server on both port 80(http) or 443(https)
+	Only port 80, 443 are allowed by default to your server, 
+	this allows web traffic to reach your server on both port 80(http) or 443(https)
 	
 	Management port 2200 is whitelisted and allowed connection to the server, for managing purpose.
 	
@@ -98,7 +99,8 @@ ShowIT display data in ASCII as it moves accross your network.
 	
 	This script will display both non vital and vital inforamtion as on your network in realtime.
 	
-	Information such as USERNAME, PASSWORD and other is displayed on your console as users types in from their devices 
+	Information such as USERNAME, PASSWORD and other is displayed on your console 
+	as users types in from their devices 
 	
 	Step #1 Download Prince Guard Script to your system.
 	
