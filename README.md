@@ -17,7 +17,7 @@ Let me demonstrate a basic protection usage:
 	
 Step #1 Download Simple-Anti-DDOS to your system.
 	
-	wget https://github.com/LasVegasCoder/Anti-DDOS-Script/blob/master/Simple-Anti-DDOS.sh
+	wget https://raw.githubusercontent.com/LasVegasCoder/Anti-DDOS-Script/master/Simple-Anti-DDOS.sh
 	
 Step #2 Make it executable
 	chmod +x Simple-Anti-DDOS.sh
