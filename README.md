@@ -22,7 +22,9 @@ Step #1 Download Simple-Anti-DDOS to your system.
 Step #2 Make it executable
 	chmod +x Simple-Anti-DDOS.sh
 	
-	Step #3 Run it.
+	chmod +x Simple-Anti-DDOS.sh
+	//
+Step #3 Run it
 	./Simple-Anti-DDOS.sh
 	
 	You're protected!
