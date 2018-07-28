@@ -106,8 +106,8 @@ ShowIT display data in ASCII as it moves accross your network.
 	as users types in from their devices 
 	
 	Step #1 Download Prince Guard Script to your system.
-	
-	wget https://github.com/LasVegasCoder/Anti-DDOS-Script/blob/master/showit
+		
+	wget hhttps://raw.githubusercontent.com/LasVegasCoder/Anti-DDOS-Script/master/showit
 	
 	Step #2 Make it executable
 		chmod +x showit
