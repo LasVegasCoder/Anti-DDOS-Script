@@ -23,10 +23,11 @@ Step #2 Make it executable
 	chmod +x Simple-Anti-DDOS.sh
 	
 	chmod +x Simple-Anti-DDOS.sh
-	//
+	
 Step #3 Run it
 	./Simple-Anti-DDOS.sh
 	
+	./Simple-Anti-DDOS.sh
 	You're protected!
 	
 	
