@@ -1,3 +1,10 @@
+# This is a Web Server Firewall.
+# This Webserver firewall allow access to port 80 and 443 
+# Whitelist your IP and other Web Server Administrator to access your Web Server;
+# Don't forget to change SSH port on line# 24
+# Author: Prince Adeyemi
+# FB: fb.com/YourVegasPrince
+
 # iptables -F  #
 iptables -A FORWARD -j DROP
 iptables -A OUTPUT -j ACCEPT
@@ -14,7 +21,7 @@ iptables -A specialips -s yyy.yyy.yyy.yyy -j RETURN  # another trusted IP Addres
 iptables -A specialips -j DROP
 
 iptables -A INPUT -j specialips
-iptables -A INPUT -p tcp --dport 2200 -j ACCEPT
+iptables -A INPUT -p tcp --dport 2200 -j ACCEPT           # change this port to your prefer SSH port.
 iptables -A INPUT -j DROP
 
 iptables-save > /etc/iptables.rules
