@@ -1,3 +1,6 @@
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/292a5c16020747c89409ab06af1f48d0)](https://app.codacy.com/manual/LasVegasCoder/Anti-DDOS-Script?utm_source=github.com&utm_medium=referral&utm_content=LasVegasCoder/Anti-DDOS-Script&utm_campaign=Badge_Grade_Dashboard)
+
 Firewall and Network Monitoring script handy for both beginners and advanced Network Engineer
 
 	Simple Anti DDOS Bash Script
